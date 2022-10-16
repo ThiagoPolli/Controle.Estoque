@@ -32,6 +32,7 @@ namespace Controle.Estoque.Repositorys.ProdutoRepo
             Produto? produto = await _context.Produto.Where(p => p.Id == id)
                 .Include(c => c.Categoria)
                 .Include(c => c.Fornecedor)
+                .Include(c => c.Fornecedor.Cidade)
                 .FirstOrDefaultAsync();
             return _mapper.Map<ProdutoDTO>(produto);
         }

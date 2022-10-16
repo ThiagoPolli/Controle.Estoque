@@ -14,6 +14,8 @@ namespace Controle.Estoque.Config
                 config.CreateMap<Cidade, CidadeDTO>().ReverseMap();
                 config.CreateMap<Fornecedor, FornecedorDTO>().ReverseMap();
                 config.CreateMap<Produto, ProdutoDTO>().ReverseMap();
+                config.CreateMap<Transportadora, TransportadoraDTO>().ReverseMap();
+
             });
             return mappingConfig;
         }

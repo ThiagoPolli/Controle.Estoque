@@ -9,12 +9,14 @@ D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Humanizer.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -23,6 +25,8 @@ D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -61,7 +65,3 @@ D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\obj\Debug\net6.
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\obj\Debug\net6.0\Controle.Estoque.pdb
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\obj\Debug\net6.0\Controle.Estoque.genruntimeconfig.cache
 D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\obj\Debug\net6.0\ref\Controle.Estoque.dll
-D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
-D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\temp\workspaces-NET\Estoque\Controle.Estoque\Controle.Estoque\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll

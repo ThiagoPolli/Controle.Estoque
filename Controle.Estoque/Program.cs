@@ -4,6 +4,7 @@ using Controle.Estoque.Repositorys.CategoriaRepo;
 using Controle.Estoque.Repositorys.CidadeRepo;
 using Controle.Estoque.Repositorys.FornecedorRepo;
 using Controle.Estoque.Repositorys.ProdutoRepo;
+using Controle.Estoque.Repositorys.TransportadoraRepo;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,6 +31,7 @@ builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<ICidadeRepository, CidadeRepository>();
 builder.Services.AddScoped<IFornecedorRepository, FornecedorRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<ITransportadoraRepository, TransportadoraRepository>();
 
 
 

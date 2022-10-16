@@ -12,6 +12,7 @@ namespace Controle.Estoque.Models.Context
         public DbSet<Cidade> Cidade { get; set; }
         public DbSet<Fornecedor> Fornecedor { get; set; }
         public DbSet<Produto> Produto { get; set; }
+        public DbSet<Transportadora> Transportadora { get; set; }
 
     }
 }
