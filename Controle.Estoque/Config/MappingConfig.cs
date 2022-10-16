@@ -10,8 +10,10 @@ namespace Controle.Estoque.Config
         {
             var mappingConfig = new MapperConfiguration(config =>
             {
-                config.CreateMap<Categoria, CategoriasDTO>().ReverseMap();
+                config.CreateMap<CategoriaDTO, CategoriasDTO>().ReverseMap();
                 config.CreateMap<Cidade, CidadeDTO>().ReverseMap();
+                config.CreateMap<Fornecedor, FornecedorDTO>().ReverseMap();
+                config.CreateMap<Produto, ProdutoDTO>().ReverseMap();
             });
             return mappingConfig;
         }

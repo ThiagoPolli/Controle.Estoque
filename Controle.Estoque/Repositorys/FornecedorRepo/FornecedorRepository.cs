@@ -20,19 +20,21 @@ namespace Controle.Estoque.Repositorys.FornecedorRepo
 
         public async Task<IEnumerable<FornecedorDTO>> FindAll()
         {
-          List<Fornecedor> fornecedores = await _context.Fornecedor.ToListAsync();
+          List<Fornecedor> fornecedores = await _context.Fornecedor.Include(c => c.Cidade).ToListAsync();
             return _mapper.Map<List<FornecedorDTO>>(fornecedores);
         }
 
         public async Task<FornecedorDTO> FindById(long id)
         {
-            Fornecedor? fornecedor = await _context.Fornecedor.Where(f => f.Id == id).FirstOrDefaultAsync();
+            Fornecedor? fornecedor = await _context.Fornecedor.Where(f => f.Id == id)
+                .Include(c => c.Cidade)
+                .FirstOrDefaultAsync();
             return _mapper.Map<FornecedorDTO>(fornecedor);
         }
         public async Task<FornecedorDTO> Create(FornecedorDTO fornecedorDTO)
         {
             Fornecedor fornecedor = _mapper.Map<Fornecedor>(fornecedorDTO);
-            _context.Fornecedor.Add(fornecedor);
+            _context.Add(fornecedor);
             await _context.SaveChangesAsync();
             return _mapper.Map<FornecedorDTO>(fornecedor);
 
@@ -40,7 +42,7 @@ namespace Controle.Estoque.Repositorys.FornecedorRepo
         public async Task<FornecedorDTO> Update(FornecedorDTO fornecedorDTO)
         {
             Fornecedor fornecedor = _mapper.Map<Fornecedor>(fornecedorDTO);
-            _context.Fornecedor.Update(fornecedor);
+            _context.Update(fornecedor);
             await _context.SaveChangesAsync();
             return _mapper.Map<FornecedorDTO>(fornecedor);
 

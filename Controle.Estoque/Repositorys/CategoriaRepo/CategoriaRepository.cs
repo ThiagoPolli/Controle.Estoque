@@ -19,25 +19,25 @@ namespace Controle.Estoque.Repositorys.CategoriaRepo
 
         public async Task<IEnumerable<CategoriasDTO>> FindAll()
         {
-            List<Categoria> categorias = await _context.Categorias.ToListAsync();
+            List<CategoriaDTO> categorias = await _context.Categorias.ToListAsync();
             return _mapper.Map<List<CategoriasDTO>>(categorias);
         }
 
         public async Task<CategoriasDTO> FindById(long id)
         {
-            Categoria? categoria = await _context.Categorias.Where(c => c.Id == id).FirstOrDefaultAsync();
+            CategoriaDTO? categoria = await _context.Categorias.Where(c => c.Id == id).FirstOrDefaultAsync();
             return _mapper.Map<CategoriasDTO>(categoria);
         }
         public async Task<CategoriasDTO> Create(CategoriasDTO categoriasDTO)
         {
-            Categoria categoria = _mapper.Map<Categoria>(categoriasDTO);
+            CategoriaDTO categoria = _mapper.Map<CategoriaDTO>(categoriasDTO);
             _context.Categorias.Add(categoria);
             await _context.SaveChangesAsync();
             return _mapper.Map<CategoriasDTO>(categoria);
         }
         public async Task<CategoriasDTO> Update(CategoriasDTO categoriasDTO)
         {
-            Categoria categoria = _mapper.Map<Categoria>(categoriasDTO);
+            CategoriaDTO categoria = _mapper.Map<CategoriaDTO>(categoriasDTO);
             _context.Categorias.Update(categoria);
             await _context.SaveChangesAsync();
             return _mapper.Map<CategoriasDTO>(categoria);

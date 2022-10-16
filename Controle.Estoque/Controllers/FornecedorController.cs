@@ -1,6 +1,6 @@
 ﻿using Controle.Estoque.DTOs;
 using Controle.Estoque.Repositorys.FornecedorRepo;
-using Microsoft.AspNetCore.Http;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace Controle.Estoque.Controllers
@@ -17,7 +17,7 @@ namespace Controle.Estoque.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<FornecedorDTO>> FindAll()
+        public async Task<ActionResult<IEnumerable<FornecedorDTO>>> FindAll()
         {
             var fornecedores = await _repository.FindAll();
             return Ok(fornecedores);

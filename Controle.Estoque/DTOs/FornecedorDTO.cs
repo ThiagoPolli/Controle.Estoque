@@ -1,11 +1,11 @@
-﻿#nullable disable
-using Controle.Estoque.Migrations;
+﻿using Controle.Estoque.Models;
 
 namespace Controle.Estoque.DTOs
 {
     public class FornecedorDTO
     {
        
+        public long Id { get; set; }
         public string NomeFornecedor { get; set; }
         public string Logradouro { get; set; }
         public string Bairro { get; set; }
@@ -15,6 +15,6 @@ namespace Controle.Estoque.DTOs
         public string Inscao { get; set; }
         public string Telefone { get; set; }
         public long IdCidade { get; set; }
-        public virtual CidadeDTO Cidade { get; set; }
+        public CidadeDTO? Cidade { get; set; }
     }
 }

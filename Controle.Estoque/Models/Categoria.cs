@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Controle.Estoque.Models
 {
-    public class Categoria : BaseEntity
+    public class CategoriaDTO : BaseEntity
     {
         [Required]
         [Column("categoria")]

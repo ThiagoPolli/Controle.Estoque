@@ -3,6 +3,7 @@ using Controle.Estoque.Models.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Controle.Estoque.Migrations
 {
     [DbContext(typeof(MySQLContext))]
-    partial class MySQLContextModelSnapshot : ModelSnapshot
+    [Migration("20221016153339_produto")]
+    partial class produto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -152,7 +154,7 @@ namespace Controle.Estoque.Migrations
 
                     b.Property<double>("Peso")
                         .HasColumnType("float")
-                        .HasColumnName("peso");
+                        .HasColumnName("cidade");
 
                     b.Property<decimal>("PrecoUnitario")
                         .HasColumnType("decimal(18,2)")
